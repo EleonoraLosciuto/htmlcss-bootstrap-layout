@@ -1,8 +1,0 @@
-.container {
-    border: 2px dotted red;
-    min-height: 500px;
-}
-
-[class^="col"] {
-    border: 2px dashed aqua;
-}
