@@ -8,13 +8,17 @@
     <title>Bootstrap Layout</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- container div -->
+
+        <!-- HEADER -->
         <header class="text-center my-5">
             <h1>Bootstrap 5 Responsive Grid</h1>
             <p class="lead"> Layout a griglia con diversi Breakpoint &#40;sm, md, lg&#41;</p>
         </header>
 
-        <main class="content-colums text-white">
+        <!-- MAIN -->
+         <!-- class content-colums to use Bootstrap 12 columns per row native layout -->
+        <main class="content-colums text-white"> <!-- BONUS: white text centralized here -->
 
             <div class="row my-4">
                 <div class="col-12 p-3 col-md-6 col-lg-4 text-body bg-light">
@@ -41,7 +45,8 @@
                     <p>Larghezza intera su dispositivi piccoli e un terzo su dispositivi medi e grandi</p>                    
                 </div>
             </div>
-
+            
+            <!-- BONUS: use row-cols -->
             <div class="row row-cols-2 row-cols-md-4 my-4">
                 <div class="col p-3 bg-info">
                     <h2>Colonna 1</h2>
